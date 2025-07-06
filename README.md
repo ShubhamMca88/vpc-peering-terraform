@@ -18,7 +18,7 @@ This Terraform project creates two VPCs in AWS and establishes a peering connect
 
 1. Clone and navigate to the project:
 ```bash
-cd vpc-peering
+cd vpc-peering-terraform
 ```
 
 2. Copy and customize variables:
@@ -70,7 +70,7 @@ terraform destroy
 ## Files Structure
 
 ```
-vpc-peering/
+vpc-peering-terraform/
 ├── main.tf              # Main configuration
 ├── vpc_a.tf            # VPC A resources
 ├── vpc_b.tf            # VPC B resources  
