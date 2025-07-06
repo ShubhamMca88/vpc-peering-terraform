@@ -1,0 +1,14 @@
+# AWS Region
+region = "us-east-1"
+
+# VPC CIDR blocks
+vpc_a_cidr = "10.0.0.0/16"
+vpc_b_cidr = "10.1.0.0/16"
+
+# Subnet CIDR blocks
+subnet_a_cidr = "10.0.1.0/24"
+subnet_b_cidr = "10.1.1.0/24"
+
+# Availability Zones
+availability_zone = "us-east-1a"
+availability_zone_b = "us-east-1b"
